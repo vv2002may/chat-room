@@ -1,0 +1,68 @@
+body{
+   background-image: linear-gradient(to right, #6be5b6, #a27ce3);
+   height: fit-content;
+}
+
+.container{
+   display: flex;
+   /* border: solid red; */
+   justify-content: center;
+   /* text-align: center; */
+   align-items: center;
+}
+
+.C1{
+   /* flex: 1; */
+   /* border: solid red; */
+   margin: 2vmax;
+   width: 50%;
+   height: 50%;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px 5px #2e970b;
+   background-image: linear-gradient(to bottom, #dfd2d2, #66cd11);
+}
+
+.C2{
+   box-shadow: 0px 0px 10px 5px #140101;
+   margin: 2vmax 1px;
+   /* border: solid; */
+   width: 40%;
+   height: 75vh;
+   max-height: 10%;
+   border-radius: 10px;
+   color: white;
+   padding-left: 2vmax;
+   padding-right: 2vmax;
+   background-image: linear-gradient(to bottom, #2b5341, #503838);
+   overflow-wrap: break-word;
+   overflow-y: scroll;
+}  
+
+.C2 > h2{
+   text-align: center !important;
+   font-size: 2vmax;
+   font-weight: 300;
+   margin: 1vmax;
+}
+
+.messages{
+   /* border: solid; */
+}
+.messages >h3{
+   /* border: solid; */
+   font-weight: 500;
+   /* text-decoration: underline; */
+   font-size: 1.5vmax;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.messages >h3 > span{
+   /* border: solid; */
+   font-size: 1.4vmax;
+   letter-spacing: .02vmax;
+}
+.messages >h3 > hr{
+   /* border: solid; */
+   margin: 1px;
+   width: 98%;
+   border: .5px solid rgba(156, 242, 144, 0.4);
+}
